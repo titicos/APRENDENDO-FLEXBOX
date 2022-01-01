@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Mochiy+Pop+One&family=Shizuru&family=Zen+Antique&family=Zen+Kurenaido&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+
+
+body{
+    background-image: linear-gradient(to right, rgb(151, 151, 134), rgba(236, 2, 236, 0.507));
+    height: 2vh;
+}
+
+
+.quartos{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+   
+    
+}
+
+.item{
+    box-shadow: black 20px 20px 20px;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 10px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Zen Antique', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Zen Antique', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+p{
+    text-align: justify;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 30px;
+    padding-bottom: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Zen Antique', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: auto;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Zen Antique', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+button:hover{
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 200px;
+    height: 20vh;
+    background-color: rgb(24, 25, 26);
+}
+
+footer > h2{
+  padding-top: 50px;
+  color: white;
+}
+
+
+
+footer >h2 > a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+@media (max-width:700px){
+
+
+
+
+}
+
+@media (max-width:700px){
+
+
+     .quartos{
+
+        width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+     }
+
+
+}
